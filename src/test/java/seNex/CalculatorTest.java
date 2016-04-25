@@ -26,5 +26,12 @@ public class CalculatorTest {
 		cal.mul(10, 20);
 		assertEquals(200, cal.getResult());
 	}
+	
+	@Test
+	public void testMul2() {
+		Calculator cal = new Calculator();
+		cal.mul(10, 20);
+		assertEquals(20, cal.getResult());
+	}
 
 }
